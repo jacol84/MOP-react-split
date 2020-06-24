@@ -3,6 +3,16 @@ repo for bug in https://github.com/nathancahill/split/issues/259
 
 ### Now is working     "react-split": "^2.0.9" and "split.js": "1.6.1"
 
+- [x] :ok_hand: @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
+
+
+- [Smileys & Emotion](#smileys--emotion)
+| [top](#people--body) | :ok_hand: | `:ok_hand:` | :pinching_hand: | `:pinching_hand:` | [top](#table-of-contents) |
+
 used:
 os: windows and linux it is not working 
  1. node v12.16.3 
