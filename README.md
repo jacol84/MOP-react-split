@@ -1,4 +1,5 @@
 # mija-react-split
+repo for bug in https://github.com/nathancahill/split/issues/259
 
 used 
  1. node v12.16.3 
