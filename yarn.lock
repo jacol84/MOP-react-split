@@ -1216,9 +1216,9 @@
   integrity sha512-LKVP3cgXBT9RYj+t+9FDKwS5tdI+rPBXaNSkma7hvqy35lc7mAokC2zsqWJH0LaqIt3B962nuYI77hsJoT1gow==
 
 "@types/node@*":
-  version "14.0.13"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.13.tgz#ee1128e881b874c371374c1f72201893616417c9"
-  integrity sha512-rouEWBImiRaSJsVA+ITTFM6ZxibuAlTuNOCyxVbwreu6k6+ujs7DfnU9o+PShFhET78pMBl3eH+AGSI5eOTkPA==
+  version "14.0.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.14.tgz#24a0b5959f16ac141aeb0c5b3cd7a15b7c64cbce"
+  integrity sha512-syUgf67ZQpaJj01/tRTknkMNoBBLWJOBODF0Zm4NrXmiSuxjymFrxnTu1QVYRubhVkRcZLYZG8STTwJRdVm/WQ==
 
 "@types/object-assign@^4.0.30":
   version "4.0.30"
@@ -1250,9 +1250,9 @@
     "@types/react" "*"
 
 "@types/react@*":
-  version "16.9.39"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.39.tgz#d400fd57cef4cdd6c3a6286506e230e0b2995bba"
-  integrity sha512-kpdbGez6hqN9Ihcoi6flShP+ka9XxSBPes1UOBPLmbH6oRiBLkrh2VrtWosTy/l5LKGYSGoWf2WPFRCU4gdRmg==
+  version "16.9.41"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-16.9.41.tgz#925137ee4d2ff406a0ecf29e8e9237390844002e"
+  integrity sha512-6cFei7F7L4wwuM+IND/Q2cV1koQUvJ8iSV+Gwn0c3kvABZ691g7sp3hfEQHOUBJtccl1gPi+EyNjMIl9nGA0ug==
   dependencies:
     "@types/prop-types" "*"
     csstype "^2.2.0"
@@ -10243,13 +10243,13 @@ react-smooth-scrollbar@^8.0.6:
   resolved "https://registry.yarnpkg.com/react-smooth-scrollbar/-/react-smooth-scrollbar-8.0.6.tgz#179072e6a547b3af589ea303c50fd86366275edc"
   integrity sha512-yWiIC4L8DwfIRkLL+PdXq5rysEm6trxHzRk1Rx82bzuu2aWDcHhT+l1vXH/73Re/zHmGjBgrxts/wIrwC6yYJA==
 
-react-split@^2.0.7:
-  version "2.0.7"
-  resolved "https://registry.yarnpkg.com/react-split/-/react-split-2.0.7.tgz#083b26edf208daefdc9a6638f1e0836be727acb2"
-  integrity sha512-g8knkXF2unPS7XKqFVX3Z7s+ZuSjAq4lElxEy6GG7ZACyK/G1oLkdUYR/W6WwOQgMFskFpacLEnHJDZl40eO1w==
+react-split@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/react-split/-/react-split-2.0.8.tgz#7e91c8a13f8862e1fab2e5ece7d5fef0e468de16"
+  integrity sha512-aGQhlFEprtaUljbaNjhdX0HiLvB9gCqylOg8kukghRlyWqGWrICEUgXKaIqOxlaskQx0P5xrM3JqYLUt7oTIBw==
   dependencies:
     prop-types "^15.5.7"
-    split.js "^1.5.9"
+    split.js "^1.6.0"
 
 react-test-renderer@^16.0.0-0:
   version "16.13.1"
@@ -11305,12 +11305,7 @@ split-string@^3.0.1, split-string@^3.0.2:
   dependencies:
     extend-shallow "^3.0.0"
 
-split.js@1.5.11:
-  version "1.5.11"
-  resolved "https://registry.yarnpkg.com/split.js/-/split.js-1.5.11.tgz#3654b2a8c625994e33c531df5c4dea83ca8af011"
-  integrity sha512-ec0sAbWnaMGpNHWo1ZgIlF3Mx7GzSyaO0GlcEBZGIFZQwYPPkbDV6JRpDmpzIshVig7USREuEPudy0ygQaskXg==
-
-split.js@^1.5.9:
+split.js@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/split.js/-/split.js-1.6.0.tgz#bc49bb484eeea0785192a62d9b748c0f5e673954"
   integrity sha512-83xRNcvWNuLDdBHpfm25Lzj3H2yCAXvPb+7QIKQMCSd3yjhSMSjLvr7+FZYJb3qc0/U0V2B5QRBrzfAVXSw36g==

@@ -39,7 +39,22 @@ _when run this app_
      at Array.webpackJsonpCallback [as push] (bootstrap:32)
      at main.chunk.js:1
 ```
-when I change in app to split.js 1.5.9-11 is working 
+when I change react-split@2.0.8 
+- remove yarn.lock
+- yarn install 
+- yarn start  
+- http://localhost:3000/
+- is Bed
+```
+The above error occurred in the </static/media/react-split.b4c36863.mjs> component:
+    in /static/media/react-split.b4c36863.mjs (at dashApp.js:11)
+    in div (at dashApp.js:10)
+    in DashApp (at src/index.js:6)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://fb.me/react-error-boundaries to learn more about error boundaries.
+```
+when I change in app to split.js 1.5.9-11 and react-split@2.0.7 is working 
 - move yarn.lock.ok -> yarn.lock
 - yarn install 
 - yarn start  
