@@ -5,10 +5,11 @@ used
  2. yarn 1.22.4 
 
 run app
- 1. yarn install
- 2. yarn start
-
-when run this app 
+ - yarn install
+ - yarn start
+ - http://localhost:3000/   
+ - is bad 
+_when run this app_ 
 ```
  Uncaught TypeError: split_js__WEBPACK_IMPORTED_MODULE_2___default(...) is not a function
      at SplitWrapper.componentDidMount (react-split.es.js:46)
@@ -42,4 +43,5 @@ when I change in app to split.js 1.5.9-11 is working
 - move yarn.lock.ok -> yarn.lock
 - yarn install 
 - yarn start  
-- and working 
+- http://localhost:3000/
+- is OK  
