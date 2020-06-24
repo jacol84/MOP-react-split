@@ -1,7 +1,7 @@
 # mija-react-split
 repo for bug in https://github.com/nathancahill/split/issues/259
 
-### Now is working     "react-split": "^2.0.9" and "split.js": "1.6.1"
+### FIX: Now is working     "react-split": "^2.0.9" and "split.js": "1.6.1"
 
 - [x] :ok_hand: @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
@@ -18,14 +18,19 @@ os: windows and linux it is not working
  1. node v12.16.3 
  2. yarn 1.22.4 
 
-run app
+when react-split@2.0.9 and split.js@1.6.1
+- move yarn.lock.ok -> yarn.lock
+- yarn install 
+- yarn start  
+- http://localhost:3000/
+- is OK  
+
+when  react-split@2.0.7 and split.js@1.6.0
  - yarn install
  - yarn start
  - http://localhost:3000/   
  - is bad 
- 
- react-split@2.0.7 and "split.js": "1.6.0"
- 
+  
  _when run this app_ 
 ```
  Uncaught TypeError: split_js__WEBPACK_IMPORTED_MODULE_2___default(...) is not a function
@@ -56,12 +61,14 @@ run app
      at Array.webpackJsonpCallback [as push] (bootstrap:32)
      at main.chunk.js:1
 ```
-when I change react-split@2.0.8 and "split.js": "1.6.0"
+when react-split@2.0.8 and split.js@1.6.0
 - remove yarn.lock
 - yarn install 
 - yarn start  
 - http://localhost:3000/
 - is Bad
+
+ _when run this app_ 
 ```
 The above error occurred in the </static/media/react-split.b4c36863.mjs> component:
     in /static/media/react-split.b4c36863.mjs (at dashApp.js:11)
@@ -71,6 +78,7 @@ The above error occurred in the </static/media/react-split.b4c36863.mjs> compone
 Consider adding an error boundary to your tree to customize error handling behavior.
 Visit https://fb.me/react-error-boundaries to learn more about error boundaries.
 ```
+
 when I change in app to split.js 1.5.9-11 and react-split@2.0.7 is working 
 - move yarn.lock.ok -> yarn.lock
 - yarn install 
