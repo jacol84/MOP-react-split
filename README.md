@@ -1,6 +1,8 @@
 # mija-react-split
 repo for bug in https://github.com/nathancahill/split/issues/259
 
+### Now is working     "react-split": "^2.0.9" and "split.js": "1.6.1"
+
 used:
 os: windows and linux it is not working 
  1. node v12.16.3 
@@ -11,7 +13,10 @@ run app
  - yarn start
  - http://localhost:3000/   
  - is bad 
-_when run this app_ 
+ 
+ react-split@2.0.7 and "split.js": "1.6.0"
+ 
+ _when run this app_ 
 ```
  Uncaught TypeError: split_js__WEBPACK_IMPORTED_MODULE_2___default(...) is not a function
      at SplitWrapper.componentDidMount (react-split.es.js:46)
@@ -41,7 +46,7 @@ _when run this app_
      at Array.webpackJsonpCallback [as push] (bootstrap:32)
      at main.chunk.js:1
 ```
-when I change react-split@2.0.8 
+when I change react-split@2.0.8 and "split.js": "1.6.0"
 - remove yarn.lock
 - yarn install 
 - yarn start  

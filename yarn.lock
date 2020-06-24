@@ -10243,10 +10243,10 @@ react-smooth-scrollbar@^8.0.6:
   resolved "https://registry.yarnpkg.com/react-smooth-scrollbar/-/react-smooth-scrollbar-8.0.6.tgz#179072e6a547b3af589ea303c50fd86366275edc"
   integrity sha512-yWiIC4L8DwfIRkLL+PdXq5rysEm6trxHzRk1Rx82bzuu2aWDcHhT+l1vXH/73Re/zHmGjBgrxts/wIrwC6yYJA==
 
-react-split@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/react-split/-/react-split-2.0.8.tgz#7e91c8a13f8862e1fab2e5ece7d5fef0e468de16"
-  integrity sha512-aGQhlFEprtaUljbaNjhdX0HiLvB9gCqylOg8kukghRlyWqGWrICEUgXKaIqOxlaskQx0P5xrM3JqYLUt7oTIBw==
+react-split@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/react-split/-/react-split-2.0.9.tgz#8267b198c6b186857671da94c3feed828e6b2c66"
+  integrity sha512-IxKtxxmcbNUmWMSd5vlNnlE0jwbgQS1HyQYxt7h8qFgPskSkUTNzMbO838xapmmNf9D+u9B/bdtFnVjt+JC2JA==
   dependencies:
     prop-types "^15.5.7"
     split.js "^1.6.0"
@@ -11306,9 +11306,9 @@ split-string@^3.0.1, split-string@^3.0.2:
     extend-shallow "^3.0.0"
 
 split.js@^1.6.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/split.js/-/split.js-1.6.0.tgz#bc49bb484eeea0785192a62d9b748c0f5e673954"
-  integrity sha512-83xRNcvWNuLDdBHpfm25Lzj3H2yCAXvPb+7QIKQMCSd3yjhSMSjLvr7+FZYJb3qc0/U0V2B5QRBrzfAVXSw36g==
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/split.js/-/split.js-1.6.1.tgz#3bbe3bdd5ce9efa818bd1fa5264dd3b0590fae8e"
+  integrity sha512-xKeoVFzHvFE71Kyc1/hYZo0nWvxpnWFU045UGt+t7cBpbseJz3JAhcOI3+b4cwa/Earhpr3wplycePMYeHLxdA==
 
 sprintf-js@~1.0.2:
   version "1.0.3"

@@ -36,7 +36,7 @@
     "react-smooth-scrollbar": "^8.0.6",
     "react-custom-scrollbars": "^4.2.1",
 
-    "react-split": "^2.0.8",
+    "react-split": "^2.0.9",
 
     "react-throttle": "^0.3.0",
     "react-window-size-listener": "^1.0.10",
