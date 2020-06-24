@@ -3,9 +3,9 @@ repo for bug in https://github.com/nathancahill/split/issues/259
 
 ### FIX: Now is working     "react-split": "^2.0.9" and "split.js": "1.6.1"
 
-- [x] :ok_hand: #bug-1 _split_js__WEBPACK_IMPORTED_MODULE_2___default_
-- [x] :ok_hand: #bug-2 _The above error occurred in the_
-- [x] :ok_hand: #ok-1 _Working_
+- [x] :ok_hand: [bug-1](#bug-1) _split_js__WEBPACK_IMPORTED_MODULE_2___default_
+- [x] :ok_hand: [bug-2](#bug-2) _The above error occurred in the_
+- [x] :ok_hand: [ok-1](#ok-1) _Working_
 
 used:
 os: windows and linux it is not working 
