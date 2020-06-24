@@ -45,7 +45,7 @@ when I change react-split@2.0.8
 - yarn install 
 - yarn start  
 - http://localhost:3000/
-- is Bed
+- is Bad
 ```
 The above error occurred in the </static/media/react-split.b4c36863.mjs> component:
     in /static/media/react-split.b4c36863.mjs (at dashApp.js:11)
