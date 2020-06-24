@@ -1,7 +1,8 @@
 # mija-react-split
 repo for bug in https://github.com/nathancahill/split/issues/259
 
-used 
+used:
+os: windows and linux it is not working 
  1. node v12.16.3 
  2. yarn 1.22.4 
 
