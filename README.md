@@ -3,15 +3,9 @@ repo for bug in https://github.com/nathancahill/split/issues/259
 
 ### FIX: Now is working     "react-split": "^2.0.9" and "split.js": "1.6.1"
 
-- [x] :ok_hand: @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
+- [x] :ok_hand: bug-1 _split_js__WEBPACK_IMPORTED_MODULE_2___default_
+- [x] :ok_hand: bug-2 _The above error occurred in the_
 
-
-
-- [Smileys & Emotion](#smileys--emotion)
-| [top](#people--body) | :ok_hand: | `:ok_hand:` | :pinching_hand: | `:pinching_hand:` | [top](#table-of-contents) |
 
 used:
 os: windows and linux it is not working 
